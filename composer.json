@@ -1,0 +1,15 @@
+{
+  "title": "fuelin-ase-project",
+  "require": {
+    "ext-mysqli": "*",
+    "php-webdriver/webdriver": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0.7"
+  },
+  "authors": [
+    {
+      "name": "Hanzal, Bassam, Fahmy"
+    }
+  ]
+}

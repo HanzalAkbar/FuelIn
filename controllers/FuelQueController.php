@@ -3,6 +3,7 @@
  * Copyright (c) 2023. Hanzal Akbar
  */
 
+
 namespace Fuelin;
 
 use AllowDynamicProperties;

@@ -3,6 +3,7 @@
  * Copyright (c) 2023. Hanzal Akbar
  */
 
+
 namespace Fuelin;
 
 use PHPUnit\Framework\TestCase;
@@ -29,7 +30,7 @@ class UserControllerTest extends TestCase
     {
 
     }
-    
+
     public function testCheck_login()
     {
 

@@ -3,7 +3,6 @@
  * Copyright (c) 2023. Hanzal Akbar
  */
 
-
 use Fuelin\DatabaseConnection;
 use Fuelin\FuelQueController;
 

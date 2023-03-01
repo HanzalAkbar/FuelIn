@@ -2,6 +2,7 @@
 /*
  * Copyright (c) 2023. Hanzal Akbar
  */
+
 session_start();
 
 use Fuelin\DatabaseConnection;

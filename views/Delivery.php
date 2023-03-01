@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright (c) 2023. Hanzal Akbar
+ * Copyright (c) 2023. Bassam
  */
 
 if (!isset($_SESSION['user'])) {

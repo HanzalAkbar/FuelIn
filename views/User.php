@@ -83,7 +83,7 @@ if (isset($_POST['updateUser'])) {
     } else {
         $_SESSION['message'] = "User Not Updated";
     }
-    header("Location: user\User-view.php");
+    header("Location: http://localhost/fuelin/user/User-view.php");
     exit(0);
 }
 
@@ -101,6 +101,6 @@ if (isset($_POST['deleteUser'])) {
     } else {
         $_SESSION['message'] = "User Not Deleted";
     }
-    header("Location: user\User-view.php");
+    header("Location: http://localhost/fuelin/user/User-view.php");
     exit(0);
 }

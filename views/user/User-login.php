@@ -56,7 +56,7 @@ if (isset($_SESSION['user'])) {
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-9 col-lg-6 col-xl-5">
                 <a class="navbar-brand" href="/fuelin/index.php">
-                    <img src="/fuelin/assets/images/logo.png"
+                    <img src="/fuelin/assets/images/Pump.jpg"
                          class="img-fluid" alt="FuelIn">
                 </a>
             </div>

@@ -62,7 +62,7 @@ if (isset($_POST['updateDelivery'])) {
     } else {
         $_SESSION['message'] = "Delivery Not Updated";
     }
-    header("Location: delivery\Delivery-view.php");
+    header("Location: http://localhost/fuelin/delivery/Delivery-view.php");
     exit(0);
 }
 
@@ -79,6 +79,6 @@ if (isset($_POST['deleteDelivery'])) {
     } else {
         $_SESSION['message'] = "Delivery Not Deleted";
     }
-    header("Location: delivery\Delivery-view.php");
+    header("Location: http://localhost/fuelin/delivery/Delivery-view.php");
     exit(0);
 }

@@ -59,7 +59,7 @@ if (isset($_POST['updateFuelQue'])) {
     } else {
         $_SESSION['message'] = "Fuel Que Not Updated";
     }
-    header("Location: fuelque\FuelQue-view.php");
+    header("Location: http://localhost/fuelin/fuelque/FuelQue-view.php");
     exit(0);
 }
 
@@ -75,7 +75,7 @@ if (isset($_POST['payFuelQue'])) {
     } else {
         $_SESSION['message'] = "Fuel Que Not Updated";
     }
-    header("Location: fuelque\FuelQue-view.php");
+    header("Location: http://localhost/fuelin/fuelque/FuelQue-view.php");
     exit(0);
 }
 
@@ -91,6 +91,6 @@ if (isset($_POST['deleteFuelQue'])) {
     } else {
         $_SESSION['message'] = "Fuel Que Not Deleted";
     }
-    header("Location: fuelque\FuelQue-view.php");
+    header("Location: http://localhost/fuelin/fuelque/FuelQue-view.php");
     exit(0);
 }

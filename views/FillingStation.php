@@ -65,7 +65,7 @@ if (isset($_POST['updateFillingStation'])) {
     } else {
         $_SESSION['message'] = "Station Not Updated";
     }
-    header("Location: fillingstation\FillingStation-view.php");
+    header("Location: http://localhost/fuelin/fillingstation/FillingStation-view.php");
     exit(0);
 }
 
@@ -81,6 +81,6 @@ if (isset($_POST['deleteFillingStation'])) {
     } else {
         $_SESSION['message'] = "Station Not Deleted";
     }
-    header("Location: fillingstation\FillingStation-view.php");
+    header("Location: http://localhost/fuelin/fillingstation/FillingStation-view.php");
     exit(0);
 }

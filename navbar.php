@@ -21,7 +21,7 @@ if (isset($_SESSION['user'])) {
     <link href="/fuelin/css/style.css" rel="stylesheet">
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow" style="height: 100px">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow" style="height: 100px; z-index: 9999; opacity: 1; background-color: #ffffff">
         <div class="container">
             <a class="navbar-brand" href="http://localhost/fuelin" style="margin-top: -1%">
                 <img src="/fuelin/assets/images/logo.png" class="web-logo" alt="FuelIn"
@@ -35,7 +35,7 @@ if (isset($_SESSION['user'])) {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav ms-auto mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-lg-0" style="z-index: 9999; opacity: 1; background-color: #ffffff">
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost/fuelin" style="font-size: medium">Home</a>
                     </li>
@@ -84,7 +84,7 @@ if (isset($_SESSION['user'])) {
     <link href="css/style.css" rel="stylesheet">
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow" style="height: 100px">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow" style="height: 100px; z-index: 9999; opacity: 1; background-color: #ffffff">
         <div class="container">
             <a class="navbar-brand" href="http://localhost/fuelin" style="margin-top: -1%">
                 <img src="/fuelin/assets/images/logo.png" class="web-logo" alt="FuelIn">
@@ -96,7 +96,7 @@ if (isset($_SESSION['user'])) {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav ms-auto mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-lg-0" style="z-index: 9999; opacity: 1; background-color: #ffffff">
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost/fuelin" style="font-size: medium">Home</a>
                     </li>
